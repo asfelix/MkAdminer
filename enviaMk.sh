@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../dbConnCD.sh
+. ../dbConnCD.sh
 
 # Fazemos um backup das configurações atuais de nosso terminal
 bkpterminal=`stty -g`
