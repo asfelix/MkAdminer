@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../dbConnCD.sh
+. ../dbConnCD.sh
 
 results=$(mysql --host="$dbhost" --user="$user" --password="$password" --database="$database" --skip-column-names --execute="SELECT ip FROM hotspot;")
 
