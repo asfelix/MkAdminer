@@ -1,5 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.56, for pc-linux-gnu (x86_64)                                                                                 
---                                                                                                                                             
 -- Database: hotspot                                                                                                  
 -- ------------------------------------------------------                                                                                      
 -- Server version       5.1.61-log                                                                                                             
