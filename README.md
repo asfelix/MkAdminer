@@ -6,3 +6,6 @@ Pre requisits:
 - Linux
 - Bash
 - Mysql
+
+Dependences:
+- sshpass
