@@ -42,8 +42,8 @@ for i in $results; do
 		# sshpass -p $senha ssh $usuario@$i -p $porta /system reboot ;
 		
 		# Block NetBIOS Traffic (Windows Share):
-		sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=135-139 protocol=tcp action=drop ;
-		sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=135-139 protocol=udp action=drop ;
-		sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=455 protocol=tcp action=drop ;
+		# sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=135-139 protocol=tcp action=drop ;
+		# sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=135-139 protocol=udp action=drop ;
+		# sshpass -p $senha ssh $usuario@$i -p $porta /ip firewall filter add chain=forward dst-port=455 protocol=tcp action=drop ;
 	fi
 done
