@@ -1,0 +1,4 @@
+dbhost=
+user=
+password=
+database=
